@@ -32,7 +32,7 @@
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>RCTNewArchEnabled</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -55,6 +55,7 @@
 		<string>Pretendard-SemiBold.otf</string>
 		<string>Pretendard-ExtraBold.otf</string>
 		<string>Pretendard-Black.otf</string>
+		<string>KyoboHandwriting2019.otf</string>
 	</array>
 </dict>
 </plist>

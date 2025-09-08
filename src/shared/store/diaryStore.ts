@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { WeatherNumber } from '../constants/Weather';
+import { WeatherNumber } from '../constant/Weather';
 
 interface DiaryStore {
   // 현재 작성 중인 일기 상태

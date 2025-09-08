@@ -1,4 +1,4 @@
-import { WeatherNumber } from '../constants/Weather';
+import { WeatherNumber } from '../constant/Weather';
 
 export interface DiaryEntry {
   weather: WeatherNumber; // 0~4

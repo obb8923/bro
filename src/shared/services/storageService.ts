@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { DiaryEntry } from '../types/diary';
-import { STORAGE_KEYS } from '../constants/normal';
+import { STORAGE_KEYS } from '../constant/normal';
 
 export class StorageService {
   private static readonly DIARY_KEY_PREFIX = '@diary_';

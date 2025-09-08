@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { DIARY_ANIMATION_CONSTANTS } from '@constants/DiaryAnimation';
+import { DIARY_ANIMATION_CONSTANTS } from '@/shared/constant/DiaryAnimation';
 
 
 interface AnimationStore {
