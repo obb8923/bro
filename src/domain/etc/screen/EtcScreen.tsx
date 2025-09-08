@@ -1,7 +1,6 @@
 import { View, ScrollView, TouchableOpacity, Alert } from "react-native"
 import { useNavigation } from "@react-navigation/native"
 import { Background } from "@/shared/component/Background" 
-import { TabBar } from "@/shared/component/TabBar"
 import { Text } from "@/shared/component/Text"
 import { EtcStackParamList } from "@/shared/nav/stack/Etc"
 import { NativeStackNavigationProp } from "@react-navigation/native-stack"
@@ -22,9 +21,7 @@ const MenuItem = ({ title, onPress }: { title: string; onPress: () => void }) =>
 export const EtcScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<EtcStackParamList>>()
 
-  const handleBackupRestorePress = () => {
-    navigation.navigate('BackupRestore')
-  }
+ 
 
   const handleInquiryPress = () => {
     navigation.navigate('WebView', {
@@ -34,8 +31,7 @@ export const EtcScreen = () => {
   }
 
   return (
-    <Background isStatusBarGap={true} isTabBarGap={true} isImage={2}>
-      <TabBar />
+    <Background isStatusBarGap={true} isTabBarGap={true}>
       {/* 제목 */}
       <View className="w-full justify-center items-center my-6">
       <Text text="하나일기" type="extrabold" className="text-textBlack text-2xl" />
@@ -50,10 +46,7 @@ export const EtcScreen = () => {
             title="잠금 설정" 
             onPress={() => handleMenuPress('프로필 설정')} 
           /> */}
-          <MenuItem 
-            title="백업 및 복원" 
-            onPress={handleBackupRestorePress} 
-          />
+       
           <MenuItem 
             title="건의사항 및 의견 보내기" 
             onPress={handleInquiryPress} 

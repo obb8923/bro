@@ -11,7 +11,7 @@
     "@store/*": ["src/shared/store/*"],
     "@services/*": ["src/shared/services/*"],
     "@types/*": ["src/shared/types/*"],
-    "@diary/*": ["src/domain/diary/*"],
+    "@chat/*": ["src/domain/chat/*"],
     "@calendar/*": ["src/domain/calendar/*"],
     "@etc/*": ["src/domain/etc/*"],
     "@nav/*": ["src/shared/nav/*"],
